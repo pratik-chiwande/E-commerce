@@ -1,7 +1,7 @@
 
 import { useState, useMemo, useEffect } from 'react';  // ✅ all 3 imported together
 // import { mens_kurta, womens_saree } from "../../../Data/data";
-import { filters, singlefilter } from './FilterData';
+//import { filters, singlefilter } from './FilterData';
 import {
     Dialog, DialogBackdrop, DialogPanel,
     Disclosure, DisclosureButton, DisclosurePanel,
@@ -307,10 +307,10 @@ export default function Product() {
                         <div className="grid grid-cols-1 gap-x-8 gap-y-10 lg:grid-cols-5">
 
                             {/* Desktop Filters */}
-                            <form className="hidden lg:block">
+                            {  /*   <form className="hidden lg:block">
                                 {filters.map(s => renderDisclosureSection(s, 'desk', false))}
                                 {singlefilter.map(s => renderDisclosureSection(s, 'desk', true))}
-                            </form>
+                            </form>   */  }
 
                             {/* Product grid + Pagination */}
                             <div className="lg:col-span-4 w-full">
