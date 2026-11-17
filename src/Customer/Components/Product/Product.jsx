@@ -259,8 +259,8 @@ export default function Product() {
                                 </button>
                             </div>
                             <div className="mt-4 border-t border-gray-200 px-4">
-                                {filters.map(s => renderDisclosureSection(s, 'mob', false))}
-                                {singlefilter.map(s => renderDisclosureSection(s, 'mob', true))}
+                                {/* {filters.map(s => renderDisclosureSection(s, 'mob', false))} */}
+                                {/* {singlefilter.map(s => renderDisclosureSection(s, 'mob', true))} */}
                             </div>
                         </DialogPanel>
                     </div>
